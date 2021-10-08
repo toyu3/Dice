@@ -7,7 +7,7 @@ void setup()
 void draw()
 {
   count = 0;
-  background(255);
+  background(200,200,200);
   for (int y = 0; y <= 450; y = y + 65) {
     //columns 
     for (int x = 0; x <= 450; x = x + 65) {
